@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.irfan.butt.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonId"
+            android:textAllCaps="false"
+            android:layout_margin="1dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/plane"
+            android:text="login"
+            android:textSize="50sp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <Button
+            android:id="@+id/logoutID"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:layout_margin="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/logout"
+            android:text="logout"
+            android:textSize="50sp"
+            android:textColor="@color/colorPrimaryDark"/>/>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textviewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dog"/>
+
+
+</LinearLayout>
